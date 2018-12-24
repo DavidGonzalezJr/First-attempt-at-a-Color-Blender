@@ -42,9 +42,9 @@ class ViewController: UIViewController {
         let svc: secondViewController = segue.source as! secondViewController
         
         colorView.backgroundColor = svc.colorView.backgroundColor
-        redLabel.text = "\(CGFloat(svc.redSlider.value * 255))"
-        greenLabel.text = "\(CGFloat(svc.greenSlider.value * 255))"
-        blueLabel.text = "\(CGFloat(svc.blueSlider.value * 255))"
+        redLabel.text = "\(CGFloat(svc.redSlider.value))"
+        greenLabel.text = "\(CGFloat(svc.greenSlider.value))"
+        blueLabel.text = "\(CGFloat(svc.blueSlider.value))"
     }
 
 }
