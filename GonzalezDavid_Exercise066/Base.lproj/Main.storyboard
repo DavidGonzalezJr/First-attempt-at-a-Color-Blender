@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,58 +15,58 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GonzalezDavid_Exercise066" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awv-t2-led">
-                                <rect key="frame" x="354.5" y="413" width="10.5" height="21"/>
+                                <rect key="frame" x="10" y="616" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0j-a0-l62">
-                                <rect key="frame" x="354.5" y="520" width="10.5" height="21"/>
+                                <rect key="frame" x="10" y="645" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.054901960780000002" green="0.75317174200000003" blue="0.16343858510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P57-Yq-uwx">
-                                <rect key="frame" x="354.5" y="529" width="10.5" height="21"/>
+                                <rect key="frame" x="10" y="674" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jt5-HE-2sj">
-                                <rect key="frame" x="10" y="10" width="355" height="355"/>
+                                <rect key="frame" x="10" y="54" width="355" height="514"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d24-S0-kyb">
-                                <rect key="frame" x="297" y="558" width="68" height="30"/>
+                                <rect key="frame" x="10" y="703" width="355" height="30"/>
                                 <state key="normal" title="Edit Color"/>
                                 <connections>
                                     <segue destination="6Dq-nK-10H" kind="show" id="fR4-9C-jme"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxp-Sw-oNw" userLabel="Red Label">
-                                <rect key="frame" x="375" y="86" width="10.5" height="21"/>
+                                <rect key="frame" x="476" y="86" width="10.666666666666686" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.89411764709999997" green="0.20784313730000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfK-2I-MkB" userLabel="Green Label">
-                                <rect key="frame" x="375" y="115" width="10.5" height="21"/>
+                                <rect key="frame" x="476" y="115" width="10.666666666666686" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.68728721717123287" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eb-Ud-0Jc" userLabel="Blue Label">
-                                <rect key="frame" x="375" y="143" width="10.5" height="21"/>
+                                <rect key="frame" x="476" y="122" width="10.666666666666686" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm5-Za-64i">
-                                <rect key="frame" x="499" y="172" width="68" height="30"/>
+                                <rect key="frame" x="600" y="151" width="68" height="30"/>
                                 <state key="normal" title="Edit Color"/>
                                 <connections>
                                     <segue destination="6Dq-nK-10H" kind="show" id="7Dx-bk-VHY"/>
@@ -318,10 +318,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="blueLabel" destination="1Eb-Ud-0Jc" id="PM2-WP-eHJ"/>
+                        <outlet property="blueLabel" destination="P57-Yq-uwx" id="M7R-Gz-hYl"/>
                         <outlet property="colorView" destination="jt5-HE-2sj" id="acR-vT-UUh"/>
-                        <outlet property="greenLabel" destination="TfK-2I-MkB" id="xf0-2C-jYG"/>
-                        <outlet property="redLabel" destination="Oxp-Sw-oNw" id="7IU-wi-PW5"/>
+                        <outlet property="greenLabel" destination="A0j-a0-l62" id="ZdT-UZ-JTf"/>
+                        <outlet property="redLabel" destination="awv-t2-led" id="ixo-6h-ze2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -333,21 +333,21 @@
             <objects>
                 <viewController id="6Dq-nK-10H" customClass="secondViewController" customModule="GonzalezDavid_Exercise066" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FSR-nF-pvb">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7CX-hG-gjk">
-                                <rect key="frame" x="10" y="10" width="355" height="355"/>
+                                <rect key="frame" x="10" y="54" width="355" height="503"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bns-eg-fig">
-                                <rect key="frame" x="149.5" y="569" width="76" height="30"/>
+                                <rect key="frame" x="149" y="680" width="76" height="30"/>
                                 <state key="normal" title="Randomize"/>
                                 <connections>
                                     <action selector="randomClickWithSender:" destination="6Dq-nK-10H" eventType="touchUpInside" id="GqT-PP-iBl"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ibh-oD-JbG">
-                                <rect key="frame" x="8" y="456" width="359" height="31"/>
+                                <rect key="frame" x="8" y="567" width="359" height="31"/>
                                 <color key="minimumTrackTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -355,7 +355,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dl9-Fg-hHI">
-                                <rect key="frame" x="8" y="494" width="359" height="31"/>
+                                <rect key="frame" x="8" y="605" width="359" height="31"/>
                                 <color key="minimumTrackTintColor" red="0.054901960784313725" green="0.75317174200000003" blue="0.16343858506944445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.054901960780000002" green="0.75317174200000003" blue="0.16343858510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -363,7 +363,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="id7-kD-ctq">
-                                <rect key="frame" x="8" y="531" width="359" height="31"/>
+                                <rect key="frame" x="8" y="643" width="359" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="hso-tP-cWb"/>
                                 </constraints>
@@ -383,14 +383,14 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ms-72-sxP">
-                                <rect key="frame" x="170.5" y="607" width="34" height="30"/>
+                                <rect key="frame" x="149" y="718" width="76" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="cXm-Ux-dzx" kind="unwind" unwindAction="unwindToFirstWithSegue:" id="GqE-j4-Z4Z"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4Ap-MP-ZID" userLabel="Red Slider">
-                                <rect key="frame" x="373" y="47" width="286" height="31"/>
+                                <rect key="frame" x="474" y="47" width="286" height="31"/>
                                 <color key="tintColor" red="0.89411764709999997" green="0.20784313730000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.89411764709999997" green="0.20784313730000001" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -398,7 +398,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4Pz-MT-Tag" userLabel="Green Slider">
-                                <rect key="frame" x="373" y="85" width="286" height="31"/>
+                                <rect key="frame" x="474" y="85" width="286" height="31"/>
                                 <color key="tintColor" red="0.0" green="0.68728721719999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="thumbTintColor" red="0.0" green="0.68728721719999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -406,21 +406,21 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sDN-2s-05S" userLabel="Blue Slider">
-                                <rect key="frame" x="373" y="123" width="286" height="31"/>
+                                <rect key="frame" x="474" y="123" width="286" height="31"/>
                                 <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="blueAdjustWithSender:" destination="6Dq-nK-10H" eventType="valueChanged" id="oXh-ba-5a7"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ihg-Lg-K03">
-                                <rect key="frame" x="478" y="161" width="76" height="30"/>
+                                <rect key="frame" x="579" y="161" width="76" height="30"/>
                                 <state key="normal" title="Randomize"/>
                                 <connections>
                                     <action selector="randomClickWithSender:" destination="6Dq-nK-10H" eventType="touchUpInside" id="xPG-Yh-vbJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i57-tq-vtA">
-                                <rect key="frame" x="478" y="199" width="76" height="30"/>
+                                <rect key="frame" x="579" y="199" width="76" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="cXm-Ux-dzx" kind="unwind" unwindAction="unwindToFirstWithSegue:" id="JnX-jk-ZUh"/>
@@ -443,6 +443,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="sDN-2s-05S" firstAttribute="width" secondItem="4Pz-MT-Tag" secondAttribute="width" id="73n-hP-w90"/>
+                            <constraint firstItem="7CX-hG-gjk" firstAttribute="leading" secondItem="Pi3-ox-REl" secondAttribute="leading" constant="10" id="880-PN-fAc"/>
                             <constraint firstItem="Ibh-oD-JbG" firstAttribute="trailing" secondItem="7CX-hG-gjk" secondAttribute="trailing" id="8nD-t7-azR"/>
                             <constraint firstItem="5Ms-72-sxP" firstAttribute="top" secondItem="bns-eg-fig" secondAttribute="bottom" constant="8" symbolic="YES" id="9ox-dv-Us5"/>
                             <constraint firstItem="i57-tq-vtA" firstAttribute="trailing" secondItem="Ihg-Lg-K03" secondAttribute="trailing" id="AUS-kc-iZa"/>
@@ -471,6 +472,7 @@
                             <constraint firstItem="7CX-hG-gjk" firstAttribute="top" secondItem="Pi3-ox-REl" secondAttribute="top" constant="10" id="aMU-CB-lwu"/>
                             <constraint firstItem="sDN-2s-05S" firstAttribute="height" secondItem="4Pz-MT-Tag" secondAttribute="height" id="aeH-7F-fXe"/>
                             <constraint firstItem="Pi3-ox-REl" firstAttribute="trailing" secondItem="bns-eg-fig" secondAttribute="trailing" constant="150" id="b8V-GG-MJn"/>
+                            <constraint firstItem="7CX-hG-gjk" firstAttribute="top" secondItem="Pi3-ox-REl" secondAttribute="top" constant="10" id="bIk-2K-cQG"/>
                             <constraint firstItem="Ibh-oD-JbG" firstAttribute="top" secondItem="7CX-hG-gjk" secondAttribute="bottom" constant="27" id="be7-eJ-EOr"/>
                             <constraint firstItem="4Pz-MT-Tag" firstAttribute="trailing" secondItem="4Ap-MP-ZID" secondAttribute="trailing" id="bi6-r1-YTD"/>
                             <constraint firstItem="4Ap-MP-ZID" firstAttribute="leading" secondItem="7CX-hG-gjk" secondAttribute="trailing" constant="10" id="c05-4f-pci"/>
@@ -480,6 +482,7 @@
                             <constraint firstItem="Ihg-Lg-K03" firstAttribute="centerX" secondItem="sDN-2s-05S" secondAttribute="centerX" id="euQ-i3-aAN"/>
                             <constraint firstItem="Ibh-oD-JbG" firstAttribute="leading" secondItem="dl9-Fg-hHI" secondAttribute="leading" id="f10-jR-2yZ"/>
                             <constraint firstItem="7CX-hG-gjk" firstAttribute="top" secondItem="Pi3-ox-REl" secondAttribute="top" constant="10" id="fZk-Da-qjx"/>
+                            <constraint firstItem="Ibh-oD-JbG" firstAttribute="top" secondItem="7CX-hG-gjk" secondAttribute="bottom" constant="10" id="gWV-vF-nUH"/>
                             <constraint firstItem="id7-kD-ctq" firstAttribute="top" secondItem="dl9-Fg-hHI" secondAttribute="bottom" constant="8" symbolic="YES" id="h0H-s8-bLW"/>
                             <constraint firstItem="id7-kD-ctq" firstAttribute="centerX" secondItem="dl9-Fg-hHI" secondAttribute="centerX" id="h4m-uj-fCe"/>
                             <constraint firstItem="Pi3-ox-REl" firstAttribute="bottom" secondItem="5Ms-72-sxP" secondAttribute="bottom" constant="30" id="ia3-cD-Hx5"/>
@@ -491,6 +494,7 @@
                             <constraint firstItem="5Ms-72-sxP" firstAttribute="height" secondItem="bns-eg-fig" secondAttribute="height" id="rm2-BA-G8o"/>
                             <constraint firstItem="4Pz-MT-Tag" firstAttribute="centerX" secondItem="4Ap-MP-ZID" secondAttribute="centerX" id="sHk-Do-LOt"/>
                             <constraint firstItem="sDN-2s-05S" firstAttribute="top" secondItem="4Pz-MT-Tag" secondAttribute="bottom" constant="21" id="srU-sC-eQi"/>
+                            <constraint firstItem="Pi3-ox-REl" firstAttribute="trailing" secondItem="7CX-hG-gjk" secondAttribute="trailing" constant="10" id="t8c-60-ykJ"/>
                             <constraint firstItem="id7-kD-ctq" firstAttribute="leading" secondItem="dl9-Fg-hHI" secondAttribute="leading" id="vUS-w4-83h"/>
                             <constraint firstItem="4Pz-MT-Tag" firstAttribute="top" secondItem="4Ap-MP-ZID" secondAttribute="bottom" constant="8" id="w8I-qc-S2n"/>
                             <constraint firstItem="4Pz-MT-Tag" firstAttribute="leading" secondItem="4Ap-MP-ZID" secondAttribute="leading" id="xPE-1f-DyE"/>
@@ -508,16 +512,6 @@
                                 <exclude reference="i57-tq-vtA"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="PhF-R5-82D"/>
-                                <exclude reference="Rgn-zt-bB8"/>
-                                <exclude reference="b8V-GG-MJn"/>
-                                <exclude reference="ia3-cD-Hx5"/>
-                                <exclude reference="m5i-kD-djW"/>
-                                <exclude reference="zqB-aj-UyT"/>
-                                <exclude reference="06g-Ts-Oje"/>
-                                <exclude reference="RGY-vy-TTi"/>
-                                <exclude reference="fZk-Da-qjx"/>
-                                <exclude reference="jgU-ik-c75"/>
                                 <exclude reference="c05-4f-pci"/>
                                 <exclude reference="eNJ-mV-1FY"/>
                                 <exclude reference="6IQ-G3-01o"/>
@@ -533,6 +527,26 @@
                                 <exclude reference="ZxK-e6-MbW"/>
                                 <exclude reference="aeH-7F-fXe"/>
                                 <exclude reference="srU-sC-eQi"/>
+                                <exclude reference="emL-Xk-ZHI"/>
+                                <exclude reference="euQ-i3-aAN"/>
+                                <exclude reference="6wG-gH-U1f"/>
+                                <exclude reference="AUS-kc-iZa"/>
+                                <exclude reference="GCy-SQ-w2P"/>
+                                <exclude reference="UbE-T1-ObY"/>
+                                <exclude reference="yAd-6A-dHc"/>
+                                <exclude reference="PhF-R5-82D"/>
+                                <exclude reference="Rgn-zt-bB8"/>
+                                <exclude reference="b8V-GG-MJn"/>
+                                <exclude reference="ia3-cD-Hx5"/>
+                                <exclude reference="m5i-kD-djW"/>
+                                <exclude reference="t8c-60-ykJ"/>
+                                <exclude reference="zqB-aj-UyT"/>
+                                <exclude reference="06g-Ts-Oje"/>
+                                <exclude reference="880-PN-fAc"/>
+                                <exclude reference="RGY-vy-TTi"/>
+                                <exclude reference="bIk-2K-cQG"/>
+                                <exclude reference="fZk-Da-qjx"/>
+                                <exclude reference="jgU-ik-c75"/>
                                 <exclude reference="4lq-wh-Qcb"/>
                                 <exclude reference="8nD-t7-azR"/>
                                 <exclude reference="M4s-Ha-pMD"/>
@@ -543,6 +557,7 @@
                                 <exclude reference="be7-eJ-EOr"/>
                                 <exclude reference="eee-xZ-Hzk"/>
                                 <exclude reference="f10-jR-2yZ"/>
+                                <exclude reference="gWV-vF-nUH"/>
                                 <exclude reference="kqU-W7-BWf"/>
                                 <exclude reference="mdo-dM-y7R"/>
                                 <exclude reference="4IL-S8-a33"/>
@@ -550,13 +565,6 @@
                                 <exclude reference="KNq-hb-OK5"/>
                                 <exclude reference="LBA-Or-4j8"/>
                                 <exclude reference="LsT-XD-EY4"/>
-                                <exclude reference="emL-Xk-ZHI"/>
-                                <exclude reference="euQ-i3-aAN"/>
-                                <exclude reference="6wG-gH-U1f"/>
-                                <exclude reference="AUS-kc-iZa"/>
-                                <exclude reference="GCy-SQ-w2P"/>
-                                <exclude reference="UbE-T1-ObY"/>
-                                <exclude reference="yAd-6A-dHc"/>
                                 <exclude reference="Hpx-en-Ost"/>
                                 <exclude reference="h0H-s8-bLW"/>
                                 <exclude reference="h4m-uj-fCe"/>
@@ -580,10 +588,6 @@
                                 <include reference="i57-tq-vtA"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="PhF-R5-82D"/>
-                                <include reference="Rgn-zt-bB8"/>
-                                <include reference="06g-Ts-Oje"/>
-                                <include reference="jgU-ik-c75"/>
                                 <include reference="c05-4f-pci"/>
                                 <include reference="eNJ-mV-1FY"/>
                                 <include reference="6IQ-G3-01o"/>
@@ -599,6 +603,17 @@
                                 <include reference="ZxK-e6-MbW"/>
                                 <include reference="aeH-7F-fXe"/>
                                 <exclude reference="srU-sC-eQi"/>
+                                <include reference="emL-Xk-ZHI"/>
+                                <include reference="euQ-i3-aAN"/>
+                                <include reference="6wG-gH-U1f"/>
+                                <include reference="AUS-kc-iZa"/>
+                                <include reference="GCy-SQ-w2P"/>
+                                <include reference="UbE-T1-ObY"/>
+                                <include reference="yAd-6A-dHc"/>
+                                <include reference="PhF-R5-82D"/>
+                                <include reference="Rgn-zt-bB8"/>
+                                <include reference="06g-Ts-Oje"/>
+                                <include reference="jgU-ik-c75"/>
                                 <include reference="4lq-wh-Qcb"/>
                                 <include reference="8nD-t7-azR"/>
                                 <exclude reference="ExP-j7-o6U"/>
@@ -611,13 +626,6 @@
                                 <include reference="kqU-W7-BWf"/>
                                 <exclude reference="zVd-gQ-I3A"/>
                                 <include reference="KNq-hb-OK5"/>
-                                <include reference="emL-Xk-ZHI"/>
-                                <include reference="euQ-i3-aAN"/>
-                                <include reference="6wG-gH-U1f"/>
-                                <include reference="AUS-kc-iZa"/>
-                                <include reference="GCy-SQ-w2P"/>
-                                <include reference="UbE-T1-ObY"/>
-                                <include reference="yAd-6A-dHc"/>
                                 <include reference="BMW-xz-hka"/>
                                 <include reference="JaF-ui-U7H"/>
                                 <include reference="9ox-dv-Us5"/>
@@ -628,11 +636,15 @@
                                 <include reference="b8V-GG-MJn"/>
                                 <include reference="ia3-cD-Hx5"/>
                                 <include reference="m5i-kD-djW"/>
+                                <include reference="t8c-60-ykJ"/>
                                 <include reference="zqB-aj-UyT"/>
+                                <include reference="880-PN-fAc"/>
                                 <include reference="RGY-vy-TTi"/>
+                                <include reference="bIk-2K-cQG"/>
                                 <include reference="fZk-Da-qjx"/>
-                                <include reference="PdY-m3-bpe"/>
-                                <include reference="be7-eJ-EOr"/>
+                                <exclude reference="PdY-m3-bpe"/>
+                                <exclude reference="be7-eJ-EOr"/>
+                                <include reference="gWV-vF-nUH"/>
                                 <include reference="mdo-dM-y7R"/>
                                 <include reference="4IL-S8-a33"/>
                                 <include reference="68D-8o-UnT"/>
@@ -651,10 +663,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="blueSlider" destination="sDN-2s-05S" id="poh-sv-7O9"/>
+                        <outlet property="blueSlider" destination="id7-kD-ctq" id="968-Xh-YjZ"/>
                         <outlet property="colorView" destination="7CX-hG-gjk" id="RA3-SY-w5X"/>
-                        <outlet property="greenSlider" destination="4Pz-MT-Tag" id="576-wA-4Ll"/>
-                        <outlet property="redSlider" destination="4Ap-MP-ZID" id="5bP-HJ-62o"/>
+                        <outlet property="greenSlider" destination="dl9-Fg-hHI" id="pnj-bM-uUa"/>
+                        <outlet property="redSlider" destination="Ibh-oD-JbG" id="oTk-n8-m1v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uk0-pi-04i" userLabel="First Responder" sceneMemberID="firstResponder"/>
