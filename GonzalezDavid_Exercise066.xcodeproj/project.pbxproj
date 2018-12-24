@@ -14,6 +14,7 @@
 		74D86A951FD5BCA20051DC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D86A931FD5BCA20051DC65 /* LaunchScreen.storyboard */; };
 		74D86AA01FD5BCA20051DC65 /* GonzalezDavid_Exercise066Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86A9F1FD5BCA20051DC65 /* GonzalezDavid_Exercise066Tests.swift */; };
 		74D86AAB1FD5BCA20051DC65 /* GonzalezDavid_Exercise066UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86AAA1FD5BCA20051DC65 /* GonzalezDavid_Exercise066UITests.swift */; };
+		74D86AB91FD5C9D00051DC65 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86AB81FD5C9D00051DC65 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		74D86AA61FD5BCA20051DC65 /* GonzalezDavid_Exercise066UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GonzalezDavid_Exercise066UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D86AAA1FD5BCA20051DC65 /* GonzalezDavid_Exercise066UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonzalezDavid_Exercise066UITests.swift; sourceTree = "<group>"; };
 		74D86AAC1FD5BCA20051DC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D86AB81FD5C9D00051DC65 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				74D86A8A1FD5BCA20051DC65 /* AppDelegate.swift */,
+				74D86AB81FD5C9D00051DC65 /* secondViewController.swift */,
 				74D86A8C1FD5BCA20051DC65 /* ViewController.swift */,
 				74D86A8E1FD5BCA20051DC65 /* Main.storyboard */,
 				74D86A911FD5BCA20051DC65 /* Assets.xcassets */,
@@ -188,20 +191,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "David Gonzalez Jr";
 				TargetAttributes = {
 					74D86A861FD5BCA20051DC65 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					74D86A9A1FD5BCA20051DC65 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 74D86A861FD5BCA20051DC65;
 					};
 					74D86AA51FD5BCA20051DC65 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 74D86A861FD5BCA20051DC65;
 					};
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D86A8D1FD5BCA20051DC65 /* ViewController.swift in Sources */,
+				74D86AB91FD5C9D00051DC65 /* secondViewController.swift in Sources */,
 				74D86A8B1FD5BCA20051DC65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +336,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +395,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +403,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,7 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -463,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GonzalezDavid_Exercise066.app/GonzalezDavid_Exercise066";
 			};
@@ -480,7 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GonzalezDavid_Exercise066.app/GonzalezDavid_Exercise066";
 			};
@@ -496,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GonzalezDavid_Exercise066;
 			};
@@ -512,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGonzalezJr.GonzalezDavid-Exercise066UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GonzalezDavid_Exercise066;
 			};
